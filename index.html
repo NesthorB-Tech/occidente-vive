@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Occidente Vive — Alojamientos Turísticos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icono">🏔️</span>
+      <span class="logo-texto">Occidente Vive</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link">Inicio</a></li>
+      <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+      <li><a href="#servicios" class="nav-link">Servicios</a></li>
+      <li><a href="#alojamientos" class="nav-link">Alojamientos</a></li>
+      <li><a href="#formulario" class="nav-link">Reservar</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">🌋 Occidente de El Salvador</span>
+      <h1>Descubre el Paraíso<br/>del Occidente</h1>
+      <p>Volcanes, lagos, cascadas y cultura en Sonsonate, Santa Ana y Ahuachapán. Vive una experiencia única en los mejores alojamientos de la región.</p>
+      <div class="hero-botones">
+        <a href="#alojamientos" class="btn-primario">Ver Alojamientos</a>
+        <a href="#formulario" class="btn-secundario">Reservar Ahora</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-numero">15+</span>
+          <span class="stat-texto">Alojamientos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-numero">3</span>
+          <span class="stat-texto">Departamentos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-numero">500+</span>
+          <span class="stat-texto">Huéspedes felices</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section class="nosotros" id="nosotros">
+    <div class="contenedor">
+      <div class="nosotros-grid">
+        <div class="nosotros-texto">
+          <span class="etiqueta-seccion">¿Quiénes somos?</span>
+          <h2>Tu puerta al Occidente Salvadoreño</h2>
+          <p>Occidente Vive nació en Sonsonate con una misión clara: conectar a viajeros con los mejores alojamientos del occidente de El Salvador, una región llena de maravillas naturales y culturales que pocos conocen.</p>
+          <p>Trabajamos directamente con cabañas, hoteles boutique, hostales y opciones de glamping en Sonsonate, Santa Ana y Ahuachapán, garantizando experiencias auténticas, cómodas y memorables para cada tipo de viajero.</p>
+          <div class="nosotros-valores">
+            <div class="valor">
+              <span>🌿</span>
+              <div>
+                <h4>Turismo Responsable</h4>
+                <p>Apoyamos negocios locales y el cuidado del medio ambiente.</p>
+              </div>
+            </div>
+            <div class="valor">
+              <span>🤝</span>
+              <div>
+                <h4>Atención Personalizada</h4>
+                <p>Te asesoramos para encontrar el alojamiento perfecto.</p>
+              </div>
+            </div>
+            <div class="valor">
+              <span>✅</span>
+              <div>
+                <h4>Calidad Garantizada</h4>
+                <p>Todos nuestros alojamientos son verificados personalmente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nosotros-imagen">
+          <div class="imagen-principal" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800')"></div>
+          <div class="imagen-badge">
+            <span class="badge-numero">5★</span>
+            <span class="badge-texto">Calidad garantizada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="servicios" id="servicios">
+    <div class="contenedor">
+      <div class="seccion-header">
+        <span class="etiqueta-seccion">Lo que ofrecemos</span>
+        <h2>Nuestros Servicios</h2>
+        <p>Todo lo que necesitas para una estadía perfecta en el occidente salvadoreño</p>
+      </div>
+      <div class="servicios-grid">
+
+        <div class="servicio-card">
+          <div class="servicio-icono">🏕️</div>
+          <h3>Cabañas en Naturaleza</h3>
+          <p>Cabañas privadas rodeadas de bosque, con vista a volcanes y acceso a ríos y cascadas naturales.</p>
+          <ul class="servicio-lista">
+            <li>✓ Wifi incluido</li>
+            <li>✓ Desayuno opcional</li>
+            <li>✓ Estacionamiento</li>
+          </ul>
+          <span class="servicio-precio">Desde $45/noche</span>
+        </div>
+
+        <div class="servicio-card destacado">
+          <div class="badge-popular">⭐ Popular</div>
+          <div class="servicio-icono">🏨</div>
+          <h3>Hotel Boutique</h3>
+          <p>Hoteles con diseño único, atención personalizada y ubicaciones privilegiadas cerca de los principales atractivos.</p>
+          <ul class="servicio-lista">
+            <li>✓ Piscina incluida</li>
+            <li>✓ Desayuno incluido</li>
+            <li>✓ Tours disponibles</li>
+          </ul>
+          <span class="servicio-precio">Desde $80/noche</span>
+        </div>
+
+        <div class="servicio-card">
+          <div class="servicio-icono">🏠</div>
+          <h3>Hostales</h3>
+          <p>Alojamiento económico y social, ideal para mochileros y viajeros que buscan conectar con otros exploradores.</p>
+          <ul class="servicio-lista">
+            <li>✓ Cocina compartida</li>
+            <li>✓ Área social</li>
+            <li>✓ Lockers seguros</li>
+          </ul>
+          <span class="servicio-precio">Desde $15/noche</span>
+        </div>
+
+        <div class="servicio-card">
+          <div class="servicio-icono">⛺</div>
+          <h3>Glamping</h3>
+          <p>La experiencia de acampar con todas las comodidades de un hotel. Carpas equipadas con camas y decoración.</p>
+          <ul class="servicio-lista">
+            <li>✓ Cama real</li>
+            <li>✓ Baño privado</li>
+            <li>✓ Fogata incluida</li>
+          </ul>
+          <span class="servicio-precio">Desde $60/noche</span>
+        </div>
+
+        <div class="servicio-card">
+          <div class="servicio-icono">🚗</div>
+          <h3>Tours y Traslados</h3>
+          <p>Organizamos tours a volcanes, lagos, cascadas y sitios culturales con guías locales certificados.</p>
+          <ul class="servicio-lista">
+            <li>✓ Guía certificado</li>
+            <li>✓ Transporte incluido</li>
+            <li>✓ Grupos pequeños</li>
+          </ul>
+          <span class="servicio-precio">Desde $25/persona</span>
+        </div>
+
+        <div class="servicio-card">
+          <div class="servicio-icono">🍽️</div>
+          <h3>Experiencias Gastronómicas</h3>
+          <p>Cenas temáticas, clases de cocina salvadoreña y tours gastronómicos por los mejores restaurantes locales.</p>
+          <ul class="servicio-lista">
+            <li>✓ Chef local</li>
+            <li>✓ Ingredientes frescos</li>
+            <li>✓ Recetas originales</li>
+          </ul>
+          <span class="servicio-precio">Desde $20/persona</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ALOJAMIENTOS ========== -->
+  <section class="alojamientos" id="alojamientos">
+    <div class="contenedor">
+      <div class="seccion-header">
+        <span class="etiqueta-seccion">Dónde hospedarte</span>
+        <h2>Alojamientos Destacados</h2>
+        <p>Seleccionados por su calidad, ubicación y experiencia única</p>
+      </div>
+
+      <!-- Filtros por departamento -->
+      <div class="filtros-depto">
+        <button class="btn-depto activo" data-depto="todos">Todos</button>
+        <button class="btn-depto" data-depto="sonsonate">🌊 Sonsonate</button>
+        <button class="btn-depto" data-depto="santa-ana">🌋 Santa Ana</button>
+        <button class="btn-depto" data-depto="ahuachapan">🌿 Ahuachapán</button>
+      </div>
+
+      <div class="alojamientos-grid" id="alojamientosGrid">
+
+        <div class="alojamiento-card" data-depto="sonsonate">
+          <div class="card-imagen" style="background-image: url('https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=600')">
+            <span class="card-badge">Cabaña</span>
+          </div>
+          <div class="card-info">
+            <div class="card-ubicacion">📍 Sonsonate</div>
+            <h3>Cabañas Río Sensunapán</h3>
+            <p>Cabañas a orillas del río con vista al bosque. Perfectas para familias que buscan tranquilidad y naturaleza.</p>
+            <div class="card-footer">
+              <span class="card-precio">$55/noche</span>
+              <div class="card-estrellas">⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alojamiento-card" data-depto="santa-ana">
+          <div class="card-imagen" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600')">
+            <span class="card-badge">Hotel Boutique</span>
+          </div>
+          <div class="card-info">
+            <div class="card-ubicacion">📍 Santa Ana</div>
+            <h3>Hotel Lago Coatepeque</h3>
+            <p>Frente al lago volcánico más bello de El Salvador. Habitaciones con terraza privada y vista panorámica al agua.</p>
+            <div class="card-footer">
+              <span class="card-precio">$95/noche</span>
+              <div class="card-estrellas">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alojamiento-card" data-depto="ahuachapan">
+          <div class="card-imagen" style="background-image: url('https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=600')">
+            <span class="card-badge">Glamping</span>
+          </div>
+          <div class="card-info">
+            <div class="card-ubicacion">📍 Ahuachapán</div>
+            <h3>Glamping Los Ausoles</h3>
+            <p>Carpas de lujo rodeadas de cafetales y con vista a los géiseres naturales. Una experiencia que no olvidarás.</p>
+            <div class="card-footer">
+              <span class="card-precio">$70/noche</span>
+              <div class="card-estrellas">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alojamiento-card" data-depto="sonsonate">
+          <div class="card-imagen" style="background-image: url('https://images.unsplash.com/photo-1506059612708-99d6c258160e?w=600')">
+            <span class="card-badge">Hostal</span>
+          </div>
+          <div class="card-info">
+            <div class="card-ubicacion">📍 Sonsonate</div>
+            <h3>Hostal Cascadas de Juayúa</h3>
+            <p>A minutos de las famosas cascadas. Ambiente bohemio, cocina compartida y tours diarios a la Ruta de las Flores.</p>
+            <div class="card-footer">
+              <span class="card-precio">$18/noche</span>
+              <div class="card-estrellas">⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alojamiento-card" data-depto="santa-ana">
+          <div class="card-imagen" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600')">
+            <span class="card-badge">Hotel Boutique</span>
+          </div>
+          <div class="card-info">
+            <div class="card-ubicacion">📍 Santa Ana</div>
+            <h3>Boutique Colonial Santa Ana</h3>
+            <p>En el corazón histórico de Santa Ana. Casa colonial restaurada con habitaciones temáticas y patio central.</p>
+            <div class="card-footer">
+              <span class="card-precio">$85/noche</span>
+              <div class="card-estrellas">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alojamiento-card" data-depto="ahuachapan">
+          <div class="card-imagen" style="background-image: url('https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=600')">
+            <span class="card-badge">Cabaña</span>
+          </div>
+          <div class="card-info">
+            <div class="card-ubicacion">📍 Ahuachapán</div>
+            <h3>Cabañas Finca El Cafetal</h3>
+            <p>En medio de una finca cafetalera activa. Aprende el proceso del café, caminatas y aire puro de montaña.</p>
+            <div class="card-footer">
+              <span class="card-precio">$50/noche</span>
+              <div class="card-estrellas">⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FORMULARIO ========== -->
+  <section class="formulario-seccion" id="formulario">
+    <div class="contenedor">
+      <div class="formulario-grid">
+
+        <div class="formulario-info">
+          <span class="etiqueta-seccion">¡Reserva ya!</span>
+          <h2>Haz tu Reservación</h2>
+          <p>Completa el formulario y nos comunicaremos contigo en menos de 24 horas para confirmar tu reservación.</p>
+          <div class="contacto-info">
+            <div class="contacto-item">
+              <span>📞</span>
+              <div>
+                <strong>Teléfono</strong>
+                <p>+503 7681-0494</p>
+              </div>
+            </div>
+            <div class="contacto-item">
+              <span>📧</span>
+              <div>
+                <strong>Correo</strong>
+                <p>nestor.neftaly.blanco@clases.edu.sv</p>
+              </div>
+            </div>
+            <div class="contacto-item">
+              <span>📍</span>
+              <div>
+                <strong>Ubicación</strong>
+                <p>Sonsonate, El Salvador</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="formulario-contenedor">
+          <form id="formularioReserva" novalidate>
+
+            <div class="form-grupo">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej: María García" />
+              <span class="error-mensaje" id="error-nombre"></span>
+            </div>
+
+            <div class="form-grupo">
+              <label for="email">Correo electrónico *</label>
+              <input type="email" id="email" name="email" placeholder="Ej: maria@gmail.com" />
+              <span class="error-mensaje" id="error-email"></span>
+            </div>
+
+            <div class="form-grupo">
+              <label for="telefono">Teléfono *</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="Ej: 7681-0494" />
+              <span class="error-mensaje" id="error-telefono"></span>
+            </div>
+
+            <div class="form-fila">
+              <div class="form-grupo">
+                <label for="llegada">Fecha de llegada *</label>
+                <input type="date" id="llegada" name="llegada" />
+                <span class="error-mensaje" id="error-llegada"></span>
+              </div>
+              <div class="form-grupo">
+                <label for="salida">Fecha de salida *</label>
+                <input type="date" id="salida" name="salida" />
+                <span class="error-mensaje" id="error-salida"></span>
+              </div>
+            </div>
+
+            <div class="form-grupo">
+              <label for="destino">Destino *</label>
+              <select id="destino" name="destino">
+                <option value="">Selecciona un destino...</option>
+                <option value="sonsonate">🌊 Sonsonate</option>
+                <option value="santa-ana">🌋 Santa Ana</option>
+                <option value="ahuachapan">🌿 Ahuachapán</option>
+              </select>
+              <span class="error-mensaje" id="error-destino"></span>
+            </div>
+
+            <div class="form-grupo">
+              <label for="tipo">Tipo de alojamiento *</label>
+              <select id="tipo" name="tipo">
+                <option value="">Selecciona un tipo...</option>
+                <option value="cabana">🏕️ Cabaña</option>
+                <option value="hotel">🏨 Hotel Boutique</option>
+                <option value="hostal">🏠 Hostal</option>
+                <option value="glamping">⛺ Glamping</option>
+              </select>
+              <span class="error-mensaje" id="error-tipo"></span>
+            </div>
+
+            <div class="form-grupo">
+              <label for="huespedes">Número de huéspedes *</label>
+              <input type="number" id="huespedes" name="huespedes" placeholder="Ej: 2" min="1" max="20" />
+              <span class="error-mensaje" id="error-huespedes"></span>
+            </div>
+
+            <div class="form-grupo">
+              <label for="mensaje">Mensaje o peticiones especiales</label>
+              <textarea id="mensaje" name="mensaje" rows="3" placeholder="¿Celebras algo especial? ¿Necesitas algo específico?"></textarea>
+            </div>
+
+            <button type="submit" class="btn-reservar" id="btnReservar">
+              Enviar Reservación ✈️
+            </button>
+
+            <div class="mensaje-exito" id="mensajeExito">
+              <span>🎉</span>
+              <div>
+                <strong>¡Reservación enviada con éxito!</strong>
+                <p>Te contactaremos en menos de 24 horas. ¡Prepárate para vivir el occidente!</p>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-contenido">
+      <div class="footer-marca">
+        <h3>🏔️ Occidente Vive</h3>
+        <p>El occidente de El Salvador te espera con sus volcanes, lagos y tradiciones únicas.</p>
+        <div class="redes-sociales">
+          <a href="#" class="red-social" aria-label="Facebook">📘</a>
+          <a href="#" class="red-social" aria-label="Instagram">📸</a>
+          <a href="#" class="red-social" aria-label="WhatsApp">💬</a>
+          <a href="#" class="red-social" aria-label="TikTok">🎵</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Destinos</h4>
+        <ul>
+          <li><a href="#alojamientos">🌊 Sonsonate</a></li>
+          <li><a href="#alojamientos">🌋 Santa Ana</a></li>
+          <li><a href="#alojamientos">🌿 Ahuachapán</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Cabañas</a></li>
+          <li><a href="#servicios">Hotel Boutique</a></li>
+          <li><a href="#servicios">Glamping</a></li>
+          <li><a href="#servicios">Tours</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contacto">
+        <h4>Contacto</h4>
+        <p>📞 +503 7681-0494</p>
+        <p>📧 nestor.neftaly.blanco@clases.edu.sv</p>
+        <p>📍 Sonsonate, El Salvador</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Occidente Vive — Todos los derechos reservados</p>
+      <p>Desarrollado por <strong>Néstor Neftaly Blanco Lúe</strong> | Kodigo Bootcamp</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
