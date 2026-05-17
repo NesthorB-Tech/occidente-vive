@@ -4,7 +4,7 @@ Landing page interactiva desarrollada como proyecto evaluado del Bootcamp de Des
 
 ## 🌐 Demo en vivo
 
-🔗 [Ver sitio publicado](https://tu-usuario.github.io/nombre-del-repo)
+🔗 https://nesthorb-tech.github.io/occidente-vive
 
 ---
 
